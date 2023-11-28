@@ -1,0 +1,101 @@
+$brandColor-dark:#134582;
+$Whitecolor:  #ffffff;
+$brandColor-dark2:#1e1e1e;
+$blueColor: #4800b4;
+
+.HomeSecuraLogo1{
+  padding: 20px;
+  margin: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Bold-Hero-Text{
+  margin: auto;
+  position: relative;
+  padding: auto;
+  height: auto;
+  left: 10vh;
+  top: 20vh;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 79px;
+  color: #000000;
+  word-wrap: break-word;
+}
+@media only screen and (max-width: 900px) {
+  .Bold-Hero-Text{
+    margin: auto;
+    position: relative;
+    padding: auto;
+    height: auto;
+    left: 10vh;
+    top: 20vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vh;
+    line-height: 51px;
+    color: #000000;
+    word-wrap: break-word;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Bold-Hero-Text{
+    margin: auto;
+    position: relative;
+    padding: auto;
+    height: auto;
+    left: 10vh;
+    top: 20vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 51px;
+    color: #000000;
+    word-wrap: break-word;
+  }
+}
+
+.button-box{
+  position: absolute;
+}
+.boldText{
+  color:$brandColor-dark2;
+}
+.footer-landing{
+  padding-top: 15vh;
+  background-color:$brandColor-dark;
+  color: #E3FAFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30vh;
+  line-height: 60px;
+}
+.hero-img{
+ position: relative;
+ margin-top: 20vh;
+ display: block;
+ margin-left: auto;
+ z-index: 1000;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero-img{
+    display: block;
+    margin-left: auto;
+    text-align: right;
+    align-self: flex-end;
+    bottom: 0px;
+    right: 10vw;
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+   }
+   
+}
+

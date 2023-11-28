@@ -1,0 +1,17 @@
+$brandColor-dark:#134582;
+$Whitecolor:  #ffffff;
+$brandColor-dark2:#1e1e1e;
+$blueColor: #4800b4;
+
+.Chat-text{
+  background-color: $Whitecolor;
+  width: 90%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 79px;
+}
+.Chat-text p{
+  color: $brandColor-dark2;
+}

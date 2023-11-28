@@ -59,7 +59,9 @@ def faceDetector():
             
                 eye_cascade = cv2.CascadeClassifier('HarCascadeEye.xml') 
                 
-                # capture frames from a camera
+                # capture frames from a camera image.png
+
+                
                 cap = cv2.VideoCapture(0)
                 check, frame = cap.read()
                 # loop runs if capturing has been initialized.
@@ -75,10 +77,10 @@ def faceDetector():
                     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
                     if str(faces) == '()':
                         print("Processing....")
-                        time.sleep(2)
+                        time.sleep(3)
                         print("Processing .....")
                         Face_Detected =False
-                        print("No image detected. Please! try again")
+                        print("No image detected. Please! try again ---")
                         return Face_Detected
                     else:
                         Face_Detected =True
@@ -129,14 +131,14 @@ def faceDetector():
                 
 
 # we have to make sure the 'COM#' is set according the Windows Device Manager
-ser = serial.Serial('COM3', 9600, timeout=1)
+ser = serial.Serial('COM4', 9600, timeout=1)
 time.sleep(2)
 
 while(True):
     line = ser.readline()   # read a byte
     if line:
         string = line.decode()  # convert the byte string to a unicode string
-        num = int(string) # convert the unicode string to an int
+        num = int(float(string)) # convert the unicode string to an int
         print(num)
         if(num>0):
            faceDetector()

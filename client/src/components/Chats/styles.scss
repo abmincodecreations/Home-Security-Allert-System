@@ -1,0 +1,44 @@
+$brandColor-dark:#134582;
+$Whitecolor:  #ffffff;
+$brandColor-dark2:#1e1e1e;
+$blueColor: #4800b4;
+
+.Chats{
+  align-content: center;
+  width:100%;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:$Whitecolor;
+  border: #1e1e1e;
+  border-width: 2px;
+}
+.topBar{
+  margin: 10px;
+  width: 100%;
+  background-color: $Whitecolor;
+  border-radius: 5px 5px 0px 0px;
+  color: $brandColor-dark2;
+  box-shadow: #1e1e1e 2px 2px 5px;
+}
+.MoreOption :active{
+  transform: scale(0.85);
+}
+.MoreOption :hover{
+  box-shadow: #1e1e1e 2px 2px 5px;
+  border-radius: 25px;
+  border:$brandColor-dark2;
+  border-width: 2px;
+}
+.MoreOption img{
+  margin: 5px;
+}
+.FixSendMsgForm{
+  position: absolute;
+  bottom: 0;
+  
+
+}

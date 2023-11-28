@@ -19,7 +19,7 @@ result, image = cam.read()
 if result:
 	  imwrite("images/Geeks.jpg", image)
 else:
-	  print("No image detected. Please! try again")
+	  print("No image detected. Please! try again #")
 
 Image1="images/Geeks.jpg"
 Image2="images/My-Face.jpg"
